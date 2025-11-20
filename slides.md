@@ -1,3 +1,29 @@
+cat >> slides.md <<'EOF'
+
+<!--
+background: url('https://raw.githubusercontent.com/21f3000473-svg/marp-slides/main/assets/test-bg.png')
+background-size: cover
+background-position: center
+-->
+
+# Background Image Slide
+
+This slide demonstrates a background image loaded from the repository's raw URL.
+
+EOF
+
+<!--
+background: url('https://raw.githubusercontent.com/21f3000473-svg/marp-slides/main/assets/test-bg.png')
+background-size: cover
+background-position: center
+-->
+
+# Background Image Slide
+
+This slide confirms that a background image is included using a raw GitHub URL.
+
+
+
 ---
 marp: true
 theme: default
@@ -54,3 +80,12 @@ Inline: $O(n\log n)$
 ```js
 const sdk = new ProductSDK({ apiKey: process.env.PROD_API_KEY });
 await sdk.init();
+<!--
+background: url('assets/test-bg.png')
+background-size: cover
+background-position: center
+-->
+
+# Background image slide
+
+This slide demonstrates a background image stored in `assets/test-bg.png`.
